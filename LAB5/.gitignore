@@ -1,0 +1,62 @@
+# Archivos compilados y ejecutables
+*.exe
+*.out
+*.app
+*.obj
+*.o
+*.so
+*.dll
+*.dylib
+
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Directorios de compilación
+Debug/
+Release/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de IntelliSense
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+ipch/
+
+# Archivos temporales
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.pch
+*.tmp
+*.temp
+
+# Archivos de caché
+*.cachefile
+*.cache
+
+# Archivos de respaldo
+*~
+*.bak
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencias (si usas vcpkg u otros gestores)
+vcpkg_installed/
+packages/
